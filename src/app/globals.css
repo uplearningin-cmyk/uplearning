@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Brand color variables */
+  --brand-yellow: #facc15;
+  --brand-accent: #7c3aed;
+  --brand-blue: #2563eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .text-heading-primary {
+    font-size: clamp(2.5rem, 2.4vw + 1.1rem, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  .text-heading-secondary {
+    font-size: clamp(2.05rem, 2vw + 0.9rem, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .text-heading-tertiary {
+    font-size: clamp(1.5rem, 1.4vw + 0.8rem, 2.1rem);
+    line-height: 1.22;
+  }
+
+  .text-copy {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .text-copy-lg {
+    font-size: clamp(1rem, 1vw + 1rem, 1.15rem);
+    line-height: 1.8;
+  }
+
+  .text-copy-sm {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .text-caption {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slowZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.06);
+  }
+}
+
+@keyframes floatIn {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.95s ease-out both;
+}
+
+.animate-slow-zoom {
+  animation: slowZoom 18s ease-in-out infinite alternate;
+}
+
+.animate-float {
+  animation: floatIn 6.5s ease-in-out infinite;
+}
+
+.grid-overlay-strong {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Faded black grid for subnav highlights (50% faded background + subtle grid) */
+.grid-overlay-faded {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Black grid overlay with 50% faded background */
+.black-grid-overlay {
+  background-color: rgba(0,0,0,0.5);
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
