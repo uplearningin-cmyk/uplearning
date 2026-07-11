@@ -10,6 +10,14 @@
   --brand-accent: #7c3aed;
   --brand-blue: #2563eb;
 }
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #facc15 #7c3aed #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 @theme inline {
   --color-background: var(--background);

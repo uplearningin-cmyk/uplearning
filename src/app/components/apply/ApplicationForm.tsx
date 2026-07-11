@@ -207,7 +207,7 @@ export default function ApplicationForm() {
           {/* Progress bar tracks */}
           <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-purple-500 to-indigo-600"
+              className="h-full bg-gradient-to-r from-yellow-600 to-purple-900"
               initial={{ width: "33.3%" }}
               animate={{ width: `${currentStep * 33.3}%` }}
               transition={{ duration: 0.3 }}
@@ -467,7 +467,7 @@ export default function ApplicationForm() {
           >
             <div>
               <h2 className="text-xl font-extrabold text-slate-900">Payment & UTR Verification</h2>
-              <p className="text-xs text-slate-500 mt-1">Scan the UPI QR code below to complete the payment of ₹4,000.</p>
+              <p className="text-xs text-slate-500 mt-1">Scan the UPI QR code below to complete the payment of ₹999.</p>
             </div>
 
             <div className="grid gap-6 md:grid-cols-[1.1fr_0.9fr] items-center">
@@ -477,7 +477,7 @@ export default function ApplicationForm() {
                   <div className="bg-white p-3 rounded-2xl border border-slate-200/80 shadow-md">
                     <img
                       src={qrCodeUrl}
-                      alt="UPI QR Code to Pay ₹4000"
+                      alt="UPI QR Code to Pay ₹999"
                       className="h-[180px] w-[180px] object-contain"
                     />
                   </div>
@@ -488,7 +488,7 @@ export default function ApplicationForm() {
                 )}
 
                 <p className="text-xs font-bold text-slate-700 mt-4 uppercase tracking-wider">
-                  Scan to Pay ₹4,000
+                  Scan to Pay ₹999
                 </p>
                 <p className="text-[10px] text-slate-400 mt-1 max-w-[200px]">
                   Use GPay, PhonePe, Paytm, BHIM, or any banking app.
@@ -516,7 +516,7 @@ export default function ApplicationForm() {
                     How to verify payment:
                   </div>
                   <ol className="list-decimal pl-4 space-y-1 mt-1 font-medium text-slate-600">
-                    <li>Scan the QR and pay ₹4,000.</li>
+                    <li>Scan the QR and pay ₹999.</li>
                     <li>Find the <strong>12-digit UTR</strong> / Transaction Reference ID in your app.</li>
                     <li>Paste it in the verification field below.</li>
                   </ol>

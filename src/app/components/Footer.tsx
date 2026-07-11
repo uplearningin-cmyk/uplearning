@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div className="space-y-5">
-            <p className="text-sm uppercase tracking-[0.36em] text-[var(--brand-yellow)]">Social</p>
+            <p className="text-sm uppercase tracking-[0.36em] text-[var(--brand-yellow)]">Quick Links</p>
             <ul className="space-y-3 text-sm text-slate-300">
               <li>
                 <a href="https://in.linkedin.com/company/uplearning-in" className="transition hover:text-white">
@@ -53,6 +53,11 @@ export default function Footer() {
               <li>
                 <a href="https://www.youtube.com/@Uplearning-in" className="transition hover:text-white">
                   YouTube
+                </a>
+              </li>
+              <li>
+                <a href="https://www.irisefoundation.in/" className="transition hover:text-white">
+                  iRise Academy 
                 </a>
               </li>
             </ul>

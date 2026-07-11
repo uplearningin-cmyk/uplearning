@@ -1,5 +1,5 @@
 "use client";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, MoveUpRight} from "lucide-react";
 import Footer from "./components/Footer";
 import WhyThisProgramme from "./components/WhyThisProgramme";
 import SubNavTabs from "./components/SubNavTabs";
@@ -183,8 +183,8 @@ export default function Home() {
             <Image
               src={iRise}
               alt="iRise Academy"
-              width={70}
-              height={20}
+              width={0}
+              height={0}
               priority
               className="h-auto  w-[70px] md:w-[70px]"
             />
@@ -198,7 +198,7 @@ export default function Home() {
     className="group w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.02] active:scale-95 sm:px-7 sm:py-3"
   >
     Apply now 
-    
+    <MoveUpRight />
   </a>
   <a
     href="#subnav"
@@ -238,7 +238,7 @@ export default function Home() {
 
             <div className="space-y-2 p-3 sm:space-y-3 sm:p-4 lg:px-6 lg:py-6">
               <p className="text-caption text-white/50">Programme Fees</p>
-              <p className="text-heading-tertiary font-semibold text-white">4000</p>
+              <p className="text-heading-tertiary font-semibold text-white">999</p>
               <p className="text-copy-sm text-white/60">Only</p>
             </div>
           </div>

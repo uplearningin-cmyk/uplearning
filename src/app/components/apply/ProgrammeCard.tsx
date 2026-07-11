@@ -17,12 +17,12 @@ export default function ProgrammeCard() {
             <CreditCard size={20} />
           </div>
           <div>
-            <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Programme Fees</p>
+            <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Registration Fees</p>
             <div className="flex items-baseline gap-1.5 mt-0.5">
-              <span className="text-2xl font-bold text-slate-900">₹4,000</span>
-              <span className="text-xs font-medium text-slate-500">only (One-time)</span>
+              <span className="text-2xl font-bold text-slate-900">₹999</span>
+              <span className="text-xs font-medium text-slate-500">only </span>
             </div>
-            <p className="text-xs text-slate-500 mt-0.5">Includes all taxes, cloud credits & materials.</p>
+            <p className="text-xs text-slate-500 mt-0.5">Full Payment Before Progarmn Starts. </p>
           </div>
         </div>
 
