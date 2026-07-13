@@ -181,9 +181,8 @@ export default function Home() {
               In Collabration with 
                <a href="https://irisefoundation.in/">
             <img
-              src={iRise}
+              src="./iRise.png"
               alt="iRise Academy"
-              priority
               className="h-auto  w-[70px] md:w-[70px]"
             />
             </a>
