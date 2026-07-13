@@ -179,7 +179,7 @@ export default function Home() {
               
              <p className="mx-auto gap-2 inline-flex mt-[-3rem] max-w-[min(90vw,44rem)] text-copy-sm leading-[.2] text-white">
               In Collabration with 
-               <a href="https://irisefoundation.in/">
+               <a href="https://www.irisefoundation.in/">
             <img
               src="./iRise.png"
               alt="iRise Academy"
