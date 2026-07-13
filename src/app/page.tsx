@@ -238,7 +238,7 @@ export default function Home() {
 
             <div className="space-y-2 p-3 sm:space-y-3 sm:p-4 lg:px-6 lg:py-6">
               <p className="text-caption text-white/50">Programme Fees</p>
-              <p className="text-heading-tertiary font-semibold text-white">999</p>
+              <p className="text-heading-tertiary font-semibold text-white">₹4000</p>
               <p className="text-copy-sm text-white/60">Only</p>
             </div>
           </div>
