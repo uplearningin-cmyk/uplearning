@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Toaster } from "sonner";
 export const metadata: Metadata = {
-  metadataBase: new URL("https://uplearning.vercel.app/"),
+  metadataBase: new URL("https://uplearning.in/"),
 
   title: {
-    default: "UpLearning | Startup Builder Programme",
+    default: "UpLearning | UGProgramme in AWS",
     template: "%s | UpLearning",
   },
 
