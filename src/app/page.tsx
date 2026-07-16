@@ -194,7 +194,7 @@ export default function Home() {
     href="/aws-free-webinar"
     className="group w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.02] active:scale-95 sm:px-7 sm:py-3"
   >
-    Apply now 
+   Join Free Session
     <MoveUpRight />
   </a>
   <a
