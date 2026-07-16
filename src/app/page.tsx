@@ -259,7 +259,7 @@ export default function Home() {
           </div>
 
           <div className="flex-shrink-0 flex justify-center lg:justify-end">
-            <a href="/aws-free-webinar" className="inline-flex w-full max-w-[20rem] items-center justify-center rounded-full border border-white/10 bg-white px-4 py-2 text-sm font-semibold text-black transition hover:bg-white/90 active:scale-95 lg:max-w-none lg:w-auto">
+            <a href="/apply" className="inline-flex w-full max-w-[20rem] items-center justify-center rounded-full border border-white/10 bg-white px-4 py-2 text-sm font-semibold text-black transition hover:bg-white/90 active:scale-95 lg:max-w-none lg:w-auto">
               Apply Now <span className="ml-2 text-base">↗</span>
             </a>
           </div>
